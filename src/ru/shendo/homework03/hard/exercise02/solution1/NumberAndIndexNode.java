@@ -1,4 +1,4 @@
-package ru.shendo.homework03.hard.exercise02;
+package ru.shendo.homework03.hard.exercise02.solution1;
 
 public class NumberAndIndexNode implements Comparable<NumberAndIndexNode> {
     private final int NUMBER;

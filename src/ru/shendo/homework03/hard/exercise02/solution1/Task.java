@@ -1,4 +1,4 @@
-package ru.shendo.homework03.hard.exercise02;
+package ru.shendo.homework03.hard.exercise02.solution1;
 
 import java.util.Arrays;
 
@@ -9,12 +9,13 @@ import java.util.Arrays;
  */
 
 
-public class TaskFirstVersion {
+public class Task {
 
     public static void main(String[] args) {
         int[] array = {1, 9, 6, 2, 5, 7, 8};
         System.out.println(searchForANumber(array, 5));
         System.out.println(searchForANumber(array, 3));
+        System.out.println(searchForANumber(array, 9));
     }
 
     public static int searchForANumber(int[] unsortedArray, int number) {
